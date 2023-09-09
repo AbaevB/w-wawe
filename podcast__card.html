@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>podcast-card</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body style="background-color: var(--light-color)">
+  <!--podcast-card-->
+  <div class="card podcast-card">
+    <div class="podcast-card__left">
+      <div class="podcast-card__date podcast-card__date_1">
+        11&nbsp;июня
+      </div>
+      <picture class="card__picture">
+        <source srcset="img/podcasts/podcasts__1_320.jpg" media="(max-width:320px)">
+        <img src="img/podcasts/podcasts__1.jpg" alt="" class="card__img">
+      </picture>
+    </div>
+    <div class="podcast-card__right">
+      <time class="podcast-card__time" datetime="2023-06-11T15:43">
+        15:43
+      </time>
+      <h3 class="title podcast-card__title">
+        Европа. XIX век
+      </h3>
+      <p class="text podcast-card__text">
+        Дмитрий Гутенберг
+      </p>
+    </div>
+  </div>
+  <!--/podcast-card-->
+</body>
+
+</html>
