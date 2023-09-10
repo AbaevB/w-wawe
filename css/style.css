@@ -321,7 +321,7 @@ list-style: none;
 
 /*----------------hero----------------*/
 .hero {
-  padding-top: 94px;
+  padding-top: 86px;
   padding-bottom: 94px;
   background-image: url("../img/hero/hero__mic.png");
   background-size: 18.5% auto;
@@ -382,11 +382,15 @@ list-style: none;
 .podcasts {
   background-color: var(--light-color);
 }
-.section-list {
+
+.podcasts__title  {
+  margin-bottom: 30px;
+}
+.podcasts__list {
   gap: var(--gap);
   --offsets:1;
 }
-.section-item {
+.podcasts__item {
 width: calc((100% - (var(--gap) * var(--offsets))) / (var(--offsets) + 1));
 }
 
