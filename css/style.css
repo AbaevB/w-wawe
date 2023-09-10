@@ -179,8 +179,7 @@ img {
 .container {
   max-width: 1130px;
   padding: 0 10px;
-  margin-right: auto;
-  margin-left: auto;
+  margin: 0 auto;
 }
 
 .row {
@@ -246,8 +245,6 @@ list-style: none;
     width: 14.21%;
     align-items: center;
   }
-
-
 
   .header__center {
     width: 83.42%;
@@ -323,7 +320,64 @@ list-style: none;
   }
 
 /*----------------hero----------------*/
+.hero {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  background-image: url("../img/hero/hero__mic.png");
+  background-size: 18.5% auto;
+  background-repeat: no-repeat;
+  background-position-x: 74.1%;
+  background-position-y: 34%;
+}
 
+.hero__content  {
+  flex-direction: column;
+  width: 57.2%;
+}
+
+.hero-title {
+  margin-bottom: 14px;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 100%;
+}
+
+.hero-title__italic {
+  font-weight: 400;
+  font-style: italic;
+}
+
+.hero__text {
+  margin-bottom: 45px;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.hero__link {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  width: 245px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: normal;
+  color: var(--white);
+  background-color: var(--primary);
+  transition: background-color 0.3s ease-in-out, outline 0.3s ease-in-out;
+}
+
+.hero__link:hover {
+  background-color: var(--primary-light);
+}
+
+.hero__link:focus:not(:active) {
+  background-color: var(--primary-light);
+  outline: 2px solid var(--primary-shade);
+}
+
+.hero__link:active {
+  background-color: var(--primary-shade);
+  outline: none;
+}
 /*----------------podcasts----------------*/
 .podcasts {
   background-color: var(--light-color);
