@@ -55,6 +55,26 @@
   .header-nav__item:not(:last-child) {
     margin-right: 105px;
   }
+
+  /*-------------hero 1024-------------*/
+
+  .hero {
+    padding-top: 90px;
+    padding-bottom: 89px;
+    background-image: url("../img/hero/hero__mic_1024.png");
+    background-size: 25% auto;
+    background-position-x: 86.8%;
+    background-position-y: 48.5%;
+  }
+
+  .hero__content {
+    width: 65%;
+  }
+
+  .hero__text {
+    margin-bottom: 22px;
+  }
+
 }
 
 @media only screen and (max-width : 768px)  {
@@ -98,7 +118,23 @@
 .header-nav__link {
   font-size: 16px;
 }
+/*-------------hero 768-------------*/
+.hero {
+  background-image: none;
 
+}
+
+.hero__content  {
+  width: 100%;
+}
+
+.hero__title  {
+  margin-bottom: 16px;
+}
+
+.hero__text {
+  margin-bottom: 21px;
+}
 }
 
 @media only screen and (max-width : 320px) {
@@ -150,5 +186,27 @@
 
   .header-nav__link {
     padding: 0;
+  }
+  /*-------------hero 768-------------*/
+  .hero {
+    padding-top: 41px;
+    padding-bottom: 40px;
+  }
+
+  .hero__title  {
+    font-size: 32px;
+    margin-bottom: 7px;
+  }
+
+  .hero__text {
+    font-size: 14px;
+     margin-bottom: 20px;
+  }
+
+  .hero__link {
+    width: 200px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    font-size: 16px;
   }
 }
