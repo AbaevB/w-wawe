@@ -55,6 +55,26 @@
   .header-nav__item:not(:last-child) {
     margin-right: 105px;
   }
+
+  /*-------------hero 1024-------------*/
+
+  .hero {
+    padding-top: 90px;
+    padding-bottom: 89px;
+    background-image: url("../img/hero/hero__mic_1024.png");
+    background-size: 25% auto;
+    background-position-x: 86.8%;
+    background-position-y: 48.5%;
+  }
+
+  .hero__content {
+    width: 65%;
+  }
+
+  .hero__text {
+    margin-bottom: 22px;
+  }
+
 }
 
 @media only screen and (max-width : 768px)  {
