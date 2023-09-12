@@ -401,50 +401,24 @@ width: calc((100% - (var(--gap) * var(--offsets))) / (var(--offsets) + 1));
 
 .podcast-card__left {
   position: relative;
-  width: 20.7407%;
+  width: 112px;
 }
 
 .podcast-card__date {
   position: absolute;
   bottom: 0;
-  padding: 3px 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 51px;
+  padding-top: 2px;
+  padding-bottom: 2px;
   font-size: 10px;
   font-weight: 400;
   line-height: normal;
   color: var(--black);
   background-color: var(--light-color);
 }
-
-
-
-.podcast-card__date_2 {
-  padding: 3px 7px;
-}
-
-.podcast-card__date_3 {
-  padding: 3px 8px;
-}
-
-.podcast-card__date_4 {
-  padding: 3px 9px;
-}
-
-.podcast-card__date_5 {
-  padding: 3px 9px;
-}
-
-.podcast-card__date_6 {
-  padding: 3px 10px;
-}
-
-.podcast-card__date_7 {
-  padding: 3px 10px;
-}
-
-.podcast-card__date_8 {
-  padding: 3px 9px;
-}
-
 
 .podcast-card__right  {
   display: flex;
