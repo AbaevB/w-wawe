@@ -75,6 +75,12 @@
     margin-bottom: 22px;
   }
 
+  /*-------------podcasts 1024-------------*/
+
+  .podcast-card__left {
+    width: 28.2%;
+  }
+
 }
 
 @media only screen and (max-width : 768px)  {
@@ -187,7 +193,7 @@
   .header-nav__link {
     padding: 0;
   }
-  /*-------------hero 768-------------*/
+  /*-------------hero 320-------------*/
   .hero {
     padding-top: 41px;
     padding-bottom: 40px;
