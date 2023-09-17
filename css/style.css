@@ -451,17 +451,39 @@ color: var(--black);
 }
 
 /*----------------broadcasts----------------*/
+.broadcasts__row  {
+  position: relative;
+  gap: var(--gap);
+  --w1: 256px;
+}
 
 .broadcasts__left {
-  width: calc(25% - var(--gap));
+  /*width: calc(var(--w1) - var(--gap));*/
+  /*width: calc(100% - var(--gap) - 76.38888%);*/
+  max-width: 255px;
 }
 
 .broadcasts__right  {
- width: calc(75% - var(--gap));
+   /*width: calc(100% - var(--w1) - 2 * var(--gap));*/
+ /*width: calc(100% - var(--gap) - 23.61111%);*/
+ max-width: 825px;
+}
+
+.broadcasts__archive  {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  width: calc(23.61111% - var(--gap));
+  padding-top: 80px;
+  background-image: url("../img/broadcasts/broadcasts__mic.png");
+  background-size: 65px auto ;
+  background-repeat: no-repeat;
+  background-position: top left;
 }
 
 .broadcasts__list {
-  gap: var(--gap);
+  gap: 30px;
   --offsets: 2
 }
 
@@ -471,6 +493,7 @@ color: var(--black);
 
 .broadcast-card {
   flex-direction: column;
+  border: 1px solid var(--light-color);
 }
 
 .broadcast-card__top  {
@@ -483,6 +506,7 @@ color: var(--black);
   flex: 1;
   height: 100%;
   padding-top: 20px;
+  padding-bottom: 20px;
   padding-left: 16px;
 }
 
